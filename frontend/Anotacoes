@@ -1,0 +1,31 @@
+# Create application
+- yarn vite frontend --template react-ts
+
+# Install dependencies
+- yarn
+
+# Road application
+- yarn dev
+
+# import Google fonts
+- Roboto 500, 700 Regular fonts
+
+# Css Modules
+- Option of Vide
+
+# Pré processador (Sass)
+- yarn add sass
+
+# icons
+- yarn add react-icons
+
+# Integrate application which backend
+- yarn add axios
+
+# Client usage for listen in time real of backend
+- yarn add socket.io-client
+
+# Responsive
+- SmartPhone (0px a 480px)
+- Table ( 480px a 768px)
+- Desktop (768px a 1280px)

@@ -1,0 +1,139 @@
+.loginBoxWrapper{
+  height:100vh;
+  width:100%;
+  background: #17171a url(../../assets/banner-girl.png) no-repeat center top;
+
+  padding: 400px 5px 10px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  strong{
+    margin-top:10px;
+    font-size: 27px;
+    line-height:26px;
+  }
+
+  .signInWithGithub{
+    background: #ffcd1e;
+    margin-top: 38px;
+    padding: 0 10px;
+    height: 56px;
+    border-radius: 50px;
+    color: #09090a;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg{
+      margin-right: 5px;
+      height: 20px;
+    }
+
+    &:hover{
+      filter: brightness(0.9);
+    }
+
+  }
+}
+
+@media only screen and(min-width: 768px) {
+  .loginBoxWrapper{
+    height:100vh;
+    width:100%;
+    background: #17171a url(../../assets/banner-girl.png) no-repeat center top;
+  
+    padding: 440px 80px 0;
+    text-align: center;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    strong{
+      font-size: 30px;
+      line-height:30px;
+    }
+  
+    .signInWithGithub{
+      background: #ffcd1e;
+      margin-top: 32px;
+      padding: 0 40px;
+      height: 56px;
+      color: #09090a;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      svg{
+        margin-right: 16px;
+      }
+  
+      &:hover{
+        filter: brightness(0.9);
+      }
+  
+    }
+  }
+}
+
+
+@media only screen and(min-width: 1280px) {
+  .loginBoxWrapper{
+    height:100vh;
+    width:100%;
+    background: #17171a url(../../assets/banner-girl.png) no-repeat center top;
+  
+    padding: 440px 80px 0;
+    text-align: center;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    strong{
+      font-size: 32px;
+      line-height:36px;
+    }
+  
+    .signInWithGithub{
+      background: #ffcd1e;
+      margin-top: 32px;
+      padding: 0 40px;
+      height: 56px;
+      color: #09090a;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      svg{
+        margin-right: 16px;
+      }
+  
+      &:hover{
+        filter: brightness(0.9);
+      }
+  
+    }
+  }
+}
